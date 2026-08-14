@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataService.Infrastructure
+namespace DataService.Services
 {
-    internal class AsynBulkInserter
+    public class CollectorService
     {
     }
 }

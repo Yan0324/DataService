@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataService.Services
 {
-    internal class ICollectorService
+    public interface ICollectorService
     {
     }
 }

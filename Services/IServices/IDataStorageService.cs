@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataService.Services.IServices
 {
-    internal class IDataStorageService
+    public interface IDataStorageService
     {
     }
 }
