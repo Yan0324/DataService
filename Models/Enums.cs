@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace DataService.Models
 {
-    internal class Enums
+    /// <summary>
+    /// 采集数据质量
+    /// </summary>
+
+    public enum DataQuality
     {
+        Good = 0,
+        Uncertain = 1,
+        Bad = 2
     }
 }

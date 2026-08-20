@@ -37,5 +37,10 @@ namespace DataService.Models
         // 导航属性（关联的设备）
         // public Device Device { get; set; }
 
+        /// <summary>
+        /// 数据质量
+        /// </summary>
+        public DataQuality Quality { get; set; }
+
     }
 }

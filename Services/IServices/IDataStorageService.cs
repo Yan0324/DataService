@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DataService.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,9 @@ namespace DataService.Services.IServices
 {
     public interface IDataStorageService
     {
+        Task SaveBatchAsync(
+            IReadOnlyCollection<DataPoint> dataPoints,
+            CancellationToken cancellationToken = default
+            );
     }
 }
